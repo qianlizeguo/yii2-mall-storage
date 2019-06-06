@@ -1,0 +1,23 @@
+{
+    "name": "qianlizeguo/yii2-mall-storage",
+    "description": "A file uploading extension for Yii2, saving files to object storage service.",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.5",
+        "qiniu/php-sdk": "^7.2",
+        "aliyuncs/oss-sdk-php": "^2.3",
+        "qcloud/cos-sdk-v5": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Black",
+            "email": "1723877247@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hejiang\\Storage\\": "lib/"
+        }
+    }
+}
